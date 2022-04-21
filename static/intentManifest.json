@@ -1,0 +1,16 @@
+{
+  "site": {
+    "sampleSize": 0,
+    "intents": [],
+    "enrichments": [
+      {
+        "name": "Interest"
+      }
+    ],
+    "tests": [
+      {
+        "name": "devopsheroabtest"
+      }
+    ]
+  }
+}

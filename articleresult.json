@@ -1,0 +1,679 @@
+{
+    "type": "articleListing",
+    "parameters": {
+      "category": {
+        "type": "contentfulEntry",
+        "value": {
+          "fields": {
+            "name": "Azure",
+            "description": {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "marks": [],
+                      "value": "Articles about the Azure cloud.",
+                      "nodeType": "text"
+                    }
+                  ],
+                  "nodeType": "paragraph"
+                }
+              ],
+              "nodeType": "document"
+            },
+            "image": {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4zlk3aznluok"
+                  }
+                },
+                "id": "7GgseBcdNcCSRYZDqJf6mq",
+                "type": "Asset",
+                "createdAt": "2022-03-29T14:42:28.008Z",
+                "updatedAt": "2022-03-29T14:42:28.008Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Azure logo",
+                "description": "",
+                "file": {
+                  "url": "//images.ctfassets.net/4zlk3aznluok/7GgseBcdNcCSRYZDqJf6mq/738f89074acafc8c50aaf11e92603133/Microsoft_Azure.svg.png",
+                  "details": {
+                    "size": 85496,
+                    "image": {
+                      "width": 1200,
+                      "height": 1200
+                    }
+                  },
+                  "fileName": "Microsoft_Azure.svg.png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          },
+          "sys": {
+            "id": "6zLHyBWQzAbn99pLTVcjII",
+            "type": "Entry"
+          }
+        }
+      }
+    },
+    "data": {
+      "articles": {
+        "sys": {
+          "type": "Array"
+        },
+        "total": 1,
+        "skip": 0,
+        "limit": 100,
+        "items": [
+          {
+            "metadata": {
+              "tags": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "4zlk3aznluok"
+                }
+              },
+              "id": "YVvQSmBgzmGZJi2CaAgzg",
+              "type": "Entry",
+              "createdAt": "2022-04-19T13:14:24.218Z",
+              "updatedAt": "2022-04-19T13:14:24.218Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "article"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "title": "Azure Cosmos DB autoscale RU/s entry point is 4x lower",
+              "intro": "With Azure Cosmos DB autoscale, you can now set a scale range of 100 - 1000 RU/s, which is 4x lower than the previous minimum scale range of 400 - 4000 RU/s.",
+              "body": {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "With Azure Cosmos DB autoscale, you can now set a scale range of 100 - 1000 RU/s, which is 4x lower than the previous minimum scale range of 400 - 4000 RU/s. Autoscale automatically scales the throughput of your database or container within a specified range, removing the need for manual capacity management. For smaller workloads that do not require high throughput, setting the new scale range can make autoscale up to 4x lower in cost, while still providing the ability to scale-up to handle spikes of traffic. ",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "If you’re using an Azure Cosmos DB free tier account, you can use autoscale in your free tier account at no cost. By creating a shared throughput database with autoscale (100 – 1000 RU/s), you can have up to 25 containers sharing the overall throughput for free. ",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  },
+                  {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": "To get started, ",
+                        "nodeType": "text"
+                      },
+                      {
+                        "data": {
+                          "uri": "https://aka.ms/cosmosdb-autoscale"
+                        },
+                        "content": [
+                          {
+                            "data": {},
+                            "marks": [],
+                            "value": "create a new autoscale database or container",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "hyperlink"
+                      },
+                      {
+                        "data": {},
+                        "marks": [],
+                        "value": ". ",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "document"
+              },
+              "author": {
+                "metadata": {
+                  "tags": []
+                },
+                "sys": {
+                  "space": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "Space",
+                      "id": "4zlk3aznluok"
+                    }
+                  },
+                  "id": "5kmsB7j7wcxfGsi41IUBJU",
+                  "type": "Entry",
+                  "createdAt": "2022-03-29T11:30:47.689Z",
+                  "updatedAt": "2022-03-29T11:30:47.689Z",
+                  "environment": {
+                    "sys": {
+                      "id": "master",
+                      "type": "Link",
+                      "linkType": "Environment"
+                    }
+                  },
+                  "revision": 1,
+                  "contentType": {
+                    "sys": {
+                      "type": "Link",
+                      "linkType": "ContentType",
+                      "id": "author"
+                    }
+                  },
+                  "locale": "en-US"
+                },
+                "fields": {
+                  "name": "David van der Hoop",
+                  "bio": {
+                    "data": {},
+                    "content": [
+                      {
+                        "data": {},
+                        "content": [
+                          {
+                            "data": {},
+                            "marks": [],
+                            "value": "As a Technical Director at Evident I lead the technology department together with two of my colleagues, where I evangelize the use of the Azure cloud and especially it's PaaS offering to free teams and take control of the full SDLC from client wish to running it on production.\n\nIn my private life I'm a technology nerd, photographer, board game enthousiast, media nut, who's in love with the three women in his life (my wife and two daughters).",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "document"
+                  },
+                  "photo": {
+                    "metadata": {
+                      "tags": []
+                    },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "4zlk3aznluok"
+                        }
+                      },
+                      "id": "1UD7o9Csx6NZJuVUZei2qn",
+                      "type": "Asset",
+                      "createdAt": "2022-03-29T11:30:33.736Z",
+                      "updatedAt": "2022-03-29T11:30:33.736Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "revision": 1,
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "title": "Author David van der Hoop",
+                      "description": "",
+                      "file": {
+                        "url": "//images.ctfassets.net/4zlk3aznluok/1UD7o9Csx6NZJuVUZei2qn/82682f0071634397b06e1ec6eb4774ef/me-888x888.jpg",
+                        "details": {
+                          "size": 66366,
+                          "image": {
+                            "width": 888,
+                            "height": 888
+                          }
+                        },
+                        "fileName": "me-888x888.jpg",
+                        "contentType": "image/jpeg"
+                      }
+                    }
+                  }
+                }
+              },
+              "categories": [
+                {
+                  "metadata": {
+                    "tags": []
+                  },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "4zlk3aznluok"
+                      }
+                    },
+                    "id": "6zLHyBWQzAbn99pLTVcjII",
+                    "type": "Entry",
+                    "createdAt": "2022-03-29T14:42:35.401Z",
+                    "updatedAt": "2022-03-29T14:42:35.401Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "category"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "name": "Azure",
+                    "description": {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "content": [
+                            {
+                              "data": {},
+                              "marks": [],
+                              "value": "Articles about the Azure cloud.",
+                              "nodeType": "text"
+                            }
+                          ],
+                          "nodeType": "paragraph"
+                        }
+                      ],
+                      "nodeType": "document"
+                    },
+                    "image": {
+                      "metadata": {
+                        "tags": []
+                      },
+                      "sys": {
+                        "space": {
+                          "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "4zlk3aznluok"
+                          }
+                        },
+                        "id": "7GgseBcdNcCSRYZDqJf6mq",
+                        "type": "Asset",
+                        "createdAt": "2022-03-29T14:42:28.008Z",
+                        "updatedAt": "2022-03-29T14:42:28.008Z",
+                        "environment": {
+                          "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                          }
+                        },
+                        "revision": 1,
+                        "locale": "en-US"
+                      },
+                      "fields": {
+                        "title": "Azure logo",
+                        "description": "",
+                        "file": {
+                          "url": "//images.ctfassets.net/4zlk3aznluok/7GgseBcdNcCSRYZDqJf6mq/738f89074acafc8c50aaf11e92603133/Microsoft_Azure.svg.png",
+                          "details": {
+                            "size": 85496,
+                            "image": {
+                              "width": 1200,
+                              "height": 1200
+                            }
+                          },
+                          "fileName": "Microsoft_Azure.svg.png",
+                          "contentType": "image/png"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "publishDate": "2022-04-13T00:00+02:00"
+            }
+          }
+        ],
+        "includes": {
+          "Entry": [
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4zlk3aznluok"
+                  }
+                },
+                "id": "5kmsB7j7wcxfGsi41IUBJU",
+                "type": "Entry",
+                "createdAt": "2022-03-29T11:30:47.689Z",
+                "updatedAt": "2022-03-29T11:30:47.689Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "author"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "David van der Hoop",
+                "bio": {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "As a Technical Director at Evident I lead the technology department together with two of my colleagues, where I evangelize the use of the Azure cloud and especially it's PaaS offering to free teams and take control of the full SDLC from client wish to running it on production.\n\nIn my private life I'm a technology nerd, photographer, board game enthousiast, media nut, who's in love with the three women in his life (my wife and two daughters).",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "document"
+                },
+                "photo": {
+                  "metadata": {
+                    "tags": []
+                  },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "4zlk3aznluok"
+                      }
+                    },
+                    "id": "1UD7o9Csx6NZJuVUZei2qn",
+                    "type": "Asset",
+                    "createdAt": "2022-03-29T11:30:33.736Z",
+                    "updatedAt": "2022-03-29T11:30:33.736Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Author David van der Hoop",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/4zlk3aznluok/1UD7o9Csx6NZJuVUZei2qn/82682f0071634397b06e1ec6eb4774ef/me-888x888.jpg",
+                      "details": {
+                        "size": 66366,
+                        "image": {
+                          "width": 888,
+                          "height": 888
+                        }
+                      },
+                      "fileName": "me-888x888.jpg",
+                      "contentType": "image/jpeg"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4zlk3aznluok"
+                  }
+                },
+                "id": "6zLHyBWQzAbn99pLTVcjII",
+                "type": "Entry",
+                "createdAt": "2022-03-29T14:42:35.401Z",
+                "updatedAt": "2022-03-29T14:42:35.401Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "category"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "name": "Azure",
+                "description": {
+                  "data": {},
+                  "content": [
+                    {
+                      "data": {},
+                      "content": [
+                        {
+                          "data": {},
+                          "marks": [],
+                          "value": "Articles about the Azure cloud.",
+                          "nodeType": "text"
+                        }
+                      ],
+                      "nodeType": "paragraph"
+                    }
+                  ],
+                  "nodeType": "document"
+                },
+                "image": {
+                  "metadata": {
+                    "tags": []
+                  },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "4zlk3aznluok"
+                      }
+                    },
+                    "id": "7GgseBcdNcCSRYZDqJf6mq",
+                    "type": "Asset",
+                    "createdAt": "2022-03-29T14:42:28.008Z",
+                    "updatedAt": "2022-03-29T14:42:28.008Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "revision": 1,
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "title": "Azure logo",
+                    "description": "",
+                    "file": {
+                      "url": "//images.ctfassets.net/4zlk3aznluok/7GgseBcdNcCSRYZDqJf6mq/738f89074acafc8c50aaf11e92603133/Microsoft_Azure.svg.png",
+                      "details": {
+                        "size": 85496,
+                        "image": {
+                          "width": 1200,
+                          "height": 1200
+                        }
+                      },
+                      "fileName": "Microsoft_Azure.svg.png",
+                      "contentType": "image/png"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "Asset": [
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4zlk3aznluok"
+                  }
+                },
+                "id": "1UD7o9Csx6NZJuVUZei2qn",
+                "type": "Asset",
+                "createdAt": "2022-03-29T11:30:33.736Z",
+                "updatedAt": "2022-03-29T11:30:33.736Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Author David van der Hoop",
+                "description": "",
+                "file": {
+                  "url": "//images.ctfassets.net/4zlk3aznluok/1UD7o9Csx6NZJuVUZei2qn/82682f0071634397b06e1ec6eb4774ef/me-888x888.jpg",
+                  "details": {
+                    "size": 66366,
+                    "image": {
+                      "width": 888,
+                      "height": 888
+                    }
+                  },
+                  "fileName": "me-888x888.jpg",
+                  "contentType": "image/jpeg"
+                }
+              }
+            },
+            {
+              "metadata": {
+                "tags": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "4zlk3aznluok"
+                  }
+                },
+                "id": "7GgseBcdNcCSRYZDqJf6mq",
+                "type": "Asset",
+                "createdAt": "2022-03-29T14:42:28.008Z",
+                "updatedAt": "2022-03-29T14:42:28.008Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Azure logo",
+                "description": "",
+                "file": {
+                  "url": "//images.ctfassets.net/4zlk3aznluok/7GgseBcdNcCSRYZDqJf6mq/738f89074acafc8c50aaf11e92603133/Microsoft_Azure.svg.png",
+                  "details": {
+                    "size": 85496,
+                    "image": {
+                      "width": 1200,
+                      "height": 1200
+                    }
+                  },
+                  "fileName": "Microsoft_Azure.svg.png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          ]
+        },
+        "name": "azure",
+        "id": "6zLHyBWQzAbn99pLTVcjII"
+      }
+    }
+  }
